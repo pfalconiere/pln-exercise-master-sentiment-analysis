@@ -81,15 +81,15 @@ SVM_GAMMA_VALUES = ["scale", "auto"]
 # BERT
 # ──────────────────────────────────────────────
 BERT_MODEL_NAME = "neuralmind/bert-base-portuguese-cased"
-BERT_MAX_LENGTH = 256
+BERT_MAX_LENGTH = 128
 BERT_EPOCHS = 3
 BERT_LR = 2e-5
 BERT_BATCH_SIZE = 16
 BERT_WEIGHT_DECAY = 0.01
 
 # ──────────────────────────────────────────────
-# ICL (Claude)
+# ICL (LLM)
 # ──────────────────────────────────────────────
-CLAUDE_MODEL = "claude-sonnet-4-20250514"
+ICL_MODEL = "gpt-4o-mini"
 ICL_SUBSET_SIZE = 500
 ICL_FEW_SHOT_PER_CLASS = 2

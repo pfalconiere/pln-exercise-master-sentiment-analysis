@@ -23,9 +23,11 @@ Projeto acadêmico do **Módulo 1 de PLN**: implementação e comparação de cl
 | Modelo | Acurácia | F1 (weighted) | F1 Negativo | F1 Neutro | F1 Positivo |
 |--------|----------|---------------|-------------|-----------|-------------|
 | **BERTimbau** | **0.8538** | **0.8464** | 0.8872 | 0.4191 | **0.9152** |
-| ICL GPT-4o-mini | 0.8380 | 0.8454 | 0.8848 | **0.4571** | 0.9069 |
+| ICL GPT-4o-mini* | 0.8380 | 0.8454 | 0.8848 | **0.4571** | 0.9069 |
 | SVM + TF-IDF | 0.8170 | 0.8110 | 0.8461 | 0.3588 | 0.8873 |
 | SVM + Embeddings | 0.6892 | 0.6919 | 0.6758 | 0.2382 | 0.7903 |
+
+\* ICL avaliado em subset estratificado de 500 amostras (vs ~19K do teste completo para os demais modelos).
 
 ### Principais Descobertas
 
